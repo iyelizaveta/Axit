@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: "Raleway";  
+    src: url('fonts/Raleway-Regular.ttf'); 
+ }
+* {
+    text-align: center;
+    margin: 0 auto;
+}
+.third {
+    background-color: #F5F5F5;
+}
+h2 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #212121;
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+.first-line {
+    background-color: #E72424;
+    width: 64px;
+    height: 0.5px;
+    border: 0.1px solid #E72424;
+    margin-bottom: 35px;
+}
+.section-third {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #86878B;
+    padding-top: 35px;
+}
+.tables {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.tables table {
+    display: inline-block;
+}
+
+.price .price-two {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+.one {
+    background-color: #333333;
+    width: 340px;
+    height: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.two {
+    background-color: #333333;
+    width: 340px;
+    height: 100px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.three {
+    background-color: #333333;
+    width: 340px;
+    height: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+td {
+    width: 340px;
+    height: 40px;
+    background-color: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #86878B;
+}
+
+
