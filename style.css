@@ -3,14 +3,15 @@
     font-family: "Raleway";  
     src: url('fonts/Raleway-Regular.ttf'); 
  }
-* {
+ * {
+    margin: 0 auto;
+ }
+.third {
+    background-color: #F5F5F5;
     text-align: center;
     margin: 0 auto;
     padding-left: 110px;
     padding-right: 110px;
-}
-.third {
-    background-color: #F5F5F5;
 }
 h2 {
     font-family: Raleway;
@@ -40,17 +41,20 @@ h2 {
 .tables {
     margin-top: 60px;
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.tables table {
-    display: inline-block;
-}
-
 .price .price-two {
     text-align: center;
     border-collapse: separate;
     border-spacing: 1px;
     margin-right: 80px;
     margin-bottom: 60px;
+}
+.price-two {
+    position: relative;
+    bottom: 15px;
 }
 .one {
     background-color: #333333;
