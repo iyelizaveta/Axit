@@ -6,6 +6,8 @@
 * {
     text-align: center;
     margin: 0 auto;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 .third {
     background-color: #F5F5F5;
