@@ -4,16 +4,16 @@
     src: url('fonts/Raleway-Regular.ttf'); 
  }
  * {
-    margin: 0 auto;
+    margin: 0;
  }
-.third {
+.pricing-options {
     background-color: #F5F5F5;
     text-align: center;
     margin: 0 auto;
     padding-left: 110px;
     padding-right: 110px;
 }
-h2 {
+.pricing {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -23,14 +23,16 @@ h2 {
     padding-top: 80px;
     padding-bottom: 35px;
 }
-.first-line {
+.line-pricing {
     background-color: #E72424;
     width: 64px;
     height: 0.5px;
     border: 0.1px solid #E72424;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 35px;
 }
-.section-third {
+.section-pricing-options {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -38,7 +40,7 @@ h2 {
     color: #86878B;
     padding-top: 35px;
 }
-.tables {
+.tables-price {
     margin-top: 60px;
     padding-bottom: 60px;
     display: flex;
@@ -56,7 +58,7 @@ h2 {
     position: relative;
     bottom: 15px;
 }
-.one {
+.cells-one {
     background-color: #333333;
     width: 340px;
     height: 50px;
@@ -66,7 +68,7 @@ h2 {
     font-size: 20px;
     color: #FFFFFF;
 }
-.two {
+.cells-two {
     background-color: #333333;
     width: 340px;
     height: 100px;
@@ -76,7 +78,7 @@ h2 {
     font-size: 35px;
     color: #FFFFFF;
 }
-.three {
+.cells-three {
     background-color: #333333;
     width: 340px;
     height: 50px;
