@@ -1,0 +1,84 @@
+.why_awesome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0 67px 0;
+  font-family: "Raleway", sans-serif;
+  margin: auto;
+}
+
+.why_awesome h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.why_awesome hr {
+  width: 64px;
+  border: 1px solid rgba(231, 36, 36, 1);
+  background-color: rgba(231, 36, 36, 1);
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.why_awesome p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(134, 135, 139, 1);
+}
+
+.main_info {
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 108px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.main_info ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.main_info li {
+  margin: 0;
+}
+
+.main_info__circle {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #e72424;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_info__title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.main_info__point {
+  width: 350px;
+  height: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000;
+}

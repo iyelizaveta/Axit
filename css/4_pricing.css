@@ -1,0 +1,107 @@
+.pricing_options {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: auto;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.pricing_options h2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #212121;
+  padding-top: 80px;
+  padding-bottom: 35px;
+}
+
+.pricing_options hr {
+  background-color: #e72424;
+  width: 64px;
+  height: 0.5px;
+  border: 0.1px solid #e72424;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+
+.pricing_options span {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #86878b;
+  padding-top: 35px;
+}
+
+.tables_wrapper {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.price {
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 1px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  margin-right: 15px;
+}
+
+.central {
+  position: relative;
+  bottom: 15px;
+}
+
+.cells_one {
+  background-color: #333333;
+  width: 340px;
+  min-width: 200px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.cells_two {
+  background-color: #333333;
+  width: 340px;
+  min-width: 200px;
+  height: 100px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.cells_three {
+  background-color: #333333;
+  width: 340px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+td {
+  width: 340px;
+  min-width: 200px;
+  height: 40px;
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #86878b;
+}
